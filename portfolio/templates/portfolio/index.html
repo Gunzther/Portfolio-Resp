@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Gunthee's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">GUNTHEE'S</a>
+    <a href="#me" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT ME</a>
+    <a href="#games" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MY GAMES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navSmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#me" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+  <a href="#games" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MY GAMES</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Header Images -->
+  <div class="w3-display-container w3-center">
+    <img src="https://i.ibb.co/Sy8L64Y/Game-Port-1.jpg" style="width:100%">
+  </div>
+
+  <!-- About Me Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="me">
+    <h2 class="w3-wide">ABOUT ME</h2>
+    <p class="w3-opacity"><i>Gunthee Tawewatmongkol</i></p>
+    <p class="w3-justify w3-center">I'm a game developer. I'm studying at software and knowledge engineering of Kasetsart university.
+    Long story short...whatever application you want me to do, I'll always back to develop the game.</p>
+  </div>
+
+  <!-- My Games Section -->
+  <div class="w3-black" id="games">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">MY GAMES</h2>
+      <p class="w3-opacity w3-center"><i>let's fun.</i></p><br>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/zZN1hkV/mini-tofu.png" alt="Super Mini Tofu" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Super Mini Tofu</b></p>
+            <p>Being brave and fly forward</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.open('https://super-mini-tofu.now.sh');">Play!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/w6MpYxz/super-tofu.png" alt="Super Tofu:Magenta" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Super Tofu:Magenta</b></p>
+            <p>Magenta is a light purplish red</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.open('https://drive.google.com/file/d/1nRQHAAuxVVZwVq8B0PFraFrrDecnivXp/view?usp=sharing');">Play!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/xLm5TVC/rabby-bana.png" alt="Rabby Bana" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Rabby Bana</b></p>
+            <p>Let's play a tag!</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.open('https://github.com/KameriiJ/RabbyBana-the-juker#how-to-play-the-game');">Play!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/Xb0DqPZ/RHBH.png" alt="Rabby Hops Bananas Hamp" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Rabby Hops Bananas Hamp</b></p>
+            <p>T-rex game in multiplayer?</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.open('https://github.com/KameriiJ/RabbyHops-BananasHamp#installation');">Play!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/smV5ZNx/finding.png" alt="Finding in Curve" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Finding in Curve</b></p>
+            <p>Find the missing harmony</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.open('https://globalgamejam.org/2020/games/finding-curve-4');">Play!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/vqqLt0x/fruits-eater.png" alt="Fruits Eater" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Fruits Eater</b></p>
+            <p>Don't make human angry hungry</p>
+            <button class="w3-button w3-black w3-margin-bottom" disabled>Play!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/2Pbsf7w/kenny.png" alt="Kenny Editor" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Kenny</b></p>
+            <p>Map editor for lazy game developer</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.open('https://github.com/KameriiJ/KennyEditor');">Try!</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/8PGzy3C/nhong.png" alt="Nhong App" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Nhong</b></p>
+            <p>Evironmental-freindly application</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.open('https://shorturl.at/hpW67');">See our report</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://i.ibb.co/M7ZGngb/vfx.png" alt="VFX" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>VFX</b></p>
+            <p>Game Visual Effects</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="window.open('https://drive.google.com/open?id=1HIeS7BuWlzHY0julKKmlFF2mIJhIvtym');">Demo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Bangkok, Thailand<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +66 859054545<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: jenny.gunthee@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity" onclick="window.open('https://www.facebook.com/jenny.twwmk/');"></i>
+  <i class="fa fa-instagram w3-hover-opacity" onclick="window.open('https://www.instagram.com/gunzther_j/?hl=en');"></i>
+  <i class="fa fa-linkedin w3-hover-opacity" onclick="window.open('https://www.linkedin.com/in/gunthee-tawewatmongkol-96464a148/');"></i>
+  <i class="fa fa-github w3-hover-opacity" onclick="window.open('https://github.com/KameriiJ');"></i>
+  <p class="w3-medium">Powered by Gunthee</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navSmall");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
+
