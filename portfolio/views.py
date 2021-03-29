@@ -1,6 +1,3 @@
-from django.http import HttpResponse, HttpResponseRedirect
-from django.http import Http404
-from django.template import loader
 from django.shortcuts import render
 from django.utils import timezone
 from .models import Question
@@ -20,7 +17,6 @@ def index(request):
             new_question = Question(name=form.cleaned_data['your_name'], email=form.cleaned_data['your_email'],
                                     question_text=form.cleaned_data['your_question'], pub_date=timezone.now())
             new_question.save()
-            return HttpResponseRedirect('/portfolio/')
-    else:
-        form = QuestionForm()
+
+    form = QuestionForm()
     return render(request, 'portfolio/index.html', {'form': form})

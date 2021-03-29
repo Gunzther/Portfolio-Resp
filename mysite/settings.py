@@ -25,7 +25,7 @@ SECRET_KEY = '(2_p!q@23^3kcm72mo#t0ovnnbapjr3cyq%(csh06j%4vpq2f9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gunthee.pythonanywhere.com']
 
 
 # Application definition
@@ -119,3 +119,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = '/home/Gunthee/Portfolio-Resp/static'
